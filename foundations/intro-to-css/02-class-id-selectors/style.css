@@ -1,1 +1,31 @@
 /* Add CSS Styling */
+.alert-text {
+    color: black;
+    background-color: pink;
+    font-family: verdana, dejaVu sans, sans-serif;
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.severe-alert {
+    font-size: 24px;
+}
+
+#ntwo {
+    color: blue;
+    background-color: white;
+    font-family: verdana, dejaVu sans, sans-serif;
+    text-align: left;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+#nfour {
+    color: black;
+    background-color: lightgreen;
+    font family: verdana, dejaVu sans, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+}
