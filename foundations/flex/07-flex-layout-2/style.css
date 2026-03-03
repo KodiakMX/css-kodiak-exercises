@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 72hv;
   background: darkmagenta;
   color: white;
 }
@@ -27,3 +27,73 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*My work starts here*/
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-content: left;
+  padding: 15px 0 15px 15px;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.content {
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+}
+
+.sidebar ul {
+  list-style: none;
+  font-size: 24px;
+}
+
+.sidebar {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding left: 15px ;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 48px 48px 100px 48px ;
+  gap: 35px;
+}
+
+.card {
+  display: flex;
+  /*flex-grow: 1;
+  flex-basis: 150px;*/
+  padding: 20px;
+  width: 300px;
+
+}
+
+a {  
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/*.header, .footer {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 0;
+}*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
